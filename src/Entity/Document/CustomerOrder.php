@@ -39,6 +39,12 @@ class CustomerOrder extends MetaEntity
      * @Type("string")
      * @Generator()
      */
+    public $shipmentAddress;
+
+    /**
+     * @Type("string")
+     * @Generator()
+     */
     public $externalCode;
 
     /**
