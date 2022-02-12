@@ -54,6 +54,12 @@ class Counterparty extends MetaEntity
      */
     public $companyType;
 
+     /**
+     * @Type("DateTime<'Y-m-d H:i:s.v'>")
+     * @Generator(values={"legal", "entrepreneur", "individual"})
+     */
+    public $created;
+
     /**
      * @Type("string")
      * @Generator()
