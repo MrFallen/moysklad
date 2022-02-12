@@ -35,6 +35,12 @@ class Counterparty extends MetaEntity
      * @Type("string")
      * @Generator()
      */
+    public $email;
+
+    /**
+     * @Type("string")
+     * @Generator()
+     */
     public $fax;
 
     /**
